@@ -5,6 +5,7 @@ img {
 }
 body {
   background-color: white;
+  user-select: none;
 }
 .text-error {
   color: var(--color-invalid);
@@ -181,6 +182,9 @@ body {
   order: 1;
   display: none;
 }
+.wallet p {
+  color: var(--color-forgot);
+}
 .wallet-input:checked + .wallet-bg {
   border: 2px solid var(--color-forgot);
   border-radius: 0.3rem;
@@ -204,7 +208,7 @@ body {
   border: 1px solid gray;
 }
 .input-field-phone {
-  padding-inline: 7rem;
+  padding-inline: 7rem 1rem;
 }
 .input-label-phone {
   left: 7rem;
