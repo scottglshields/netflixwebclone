@@ -144,6 +144,17 @@
 
 /* Media Query ------------------------------------ */
 
+/* Nav Media Query */
+
+@media (320px <= width <= 680px) {
+  .nav-4,
+  .footer {
+    padding-inline: 4%;
+  }
+}
+
+/* Body Media Query */
+
 @media (320px <= width <= 940px) {
   .features {
     grid-template-columns: 1fr;
@@ -168,13 +179,11 @@
     margin: 1rem;
   }
 }
-
 @media (450px <= width <= 640px) {
   .download {
     width: 70%;
   }
 }
-
 @media (350px <= width <= 520px) {
   .header {
     min-height: 93vh;
@@ -186,7 +195,6 @@
     width: 80%;
   }
 }
-
 @media (320px <= width <= 350px) {
   .header {
     min-height: 80vh;

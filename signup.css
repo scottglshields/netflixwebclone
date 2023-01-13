@@ -10,6 +10,13 @@ body {
   color: var(--color-invalid);
 }
 
+/* Nav, Footer ----------------------------------- */
+
+.nav-planform,
+.footer-planform {
+  padding-inline: 2rem;
+}
+
 /* Container ------------------------------------- */
 
 .main-container,
@@ -30,7 +37,7 @@ body {
 .welcome,
 .choose,
 .enter {
-  padding-block: 8rem;
+  padding-block: 4rem;
   padding-inline: 2rem;
 }
 
@@ -264,6 +271,9 @@ body {
   }
 }
 @media (320px <= width <= 700px) {
+  .nav-planform {
+    padding-inline: 1.6rem;
+  }
   .container-table {
     padding: 2rem 1.6rem;
   }
@@ -363,9 +373,15 @@ body {
 
 /* Nav, Footer */
 
-@media (320px <= width <= 640px) {
-  .nav,
-  .footer {
-    padding-inline: 2rem;
+@media (320px <= width <= 700px) {
+  .nav-planform,
+  .footer-planform {
+    padding-inline: 1.6rem;
+  }
+}
+@media (320px <= width <= 450px) {
+  .nav-planform,
+  .footer-planform {
+    padding-inline: 1rem;
   }
 }

@@ -93,7 +93,7 @@ body:after {
 /* Media Query ----------------------------------- */
 
 @media (320px <= width <= 640px) {
-  body:after {
+  body {
     background: black;
   }
   .login-container {
